@@ -2,23 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
     
-    <title>Image and Video Gallery of Bleach and Tokyo Ghoul </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/800px-Weekly_Shonen_Jump_logo.svg.png" type="image/x-icon">
+    
+    <title>Bleach and Tokyo Ghoul</title>
 </head>
 <body>
     <header>
-        <h2>tokyo ghoul/ bleach image and video gallery.</h2>
-        <h3>under construction</h3>
+        <a href="index.html" title="Click Here to Return Home"><img src="images/800px-Weekly_Shonen_Jump_logo.svg.png" alt=""></a>
     </header>
+    
+    <!-- Navigation Menu -->
+    <button class="toggle-menu" id="toggle-menu" data-visible="false"></button>
+    <nav class="navmenu" id="navmenu" data-visible="false">
+        <div><a href="index.html">Home</a></div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="bleachgallery.html">Bleach Panels <i class="fa-solid fa-caret-down"></i></a></div>
+            
+        </div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="tggallery.html">Tokyo Ghoul Panels <i class="fa-solid fa-caret-down"></i></a></div> 
+            
+        </div>
+        <div class="submenu">
+            <div class="submenu-button"><a href="#bleach and tokyo ghoul videos">Bleach and Tokyo Ghoul Videos <i class="fa-solid fa-caret-down"></i></a></div>
+
+        </div>
+    </nav>
+
     <main>
-        <p>I think i want my final project to be an image and video gallery
-            for the manga called tokyo ghoul and bleach. 
-        </p>
+        <aside>
+            <nav class="navlist">
+                <ul>
+                    <li><a href="https://anilist.co/anime/269/Bleach/" target="_blank">More About Bleach</a></li>
+                    <li><a href="https://anilist.co/manga/63327/Tokyo-Ghoul/" target="_blank">More About Tokyo Ghoul</a></li>
+                    <li><a href="https://anilist.co/character/5/Ichigo-Kurosaki" target="_blank">Ichigo KurosakI</a></li>
+                    <li><a href="https://anilist.co/character/87275/Ken-Kaneki"  target="_blank">Ken Kaneki</a></li>
+                </ul>
+            <div class="thumbs">
+                <div><img src="images/ORA ORA ORA.JPG" alt=""></div>
+                <div><img src="images/eyes of the victor.JPG" alt=""></div>
+                <div><img src="images/ear bone - Copy - Copy.JPG" alt=""></div>
+                <div><img src="images/black wins - Copy.JPG" alt=""></div>
+            </div>
+        </aside>
+        <section>
+            <h3><a href="#about"></a>About Tokyo Ghoul</h3>
+            <p>Tokyo Ghoul (Japanese: 東京喰種トーキョーグール, Hepburn: Tōkyō Gūru) is a Japanese dark fantasy manga series written and illustrated by Sui Ishida. It was serialized in Shueisha's seinen manga magazine Weekly Young Jump from September 2011 to September 2014, with its chapters collected in 14 tankōbon volumes. The story is set in an alternate version of Tokyo where humans coexist with ghouls, beings who look like humans but can only survive by eating human flesh. Ken Kaneki is a college student who is transformed into a half-ghoul after an encounter with one of them. He must navigate the complex social and political dynamics between humans and ghouls while struggling to maintain his humanity.</p>
+            <h3><a href="#about" ></a>About Bleach</h3>
+            <p>Bleach (stylized in all caps) is a Japanese manga series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who obtains the powers of a Soul Reaper—a death personification similar to a Grim Reaper—from another Soul Reaper, Rukia Kuchiki. His new-found powers allow him to take on the duties of defending humans from evil spirits and guiding departed souls to the afterlife, and set him on journeys to various ghostly realms of existence.</p>
+            <h3><a href="#"></a>Favorite Volume Covers</h3>
+            <div class="volumecovers">
+                <div><img src="images/volume covers /bleach volume 19.JPG" alt=""></div>
+                <div><img src="images/volume covers /bleach volume 44.JPG" alt=""></div>
+                <div><img src="images/volume covers /tokyo ghoul re volume 7.JPG" alt=""></div>
+                <div><img src="images/volume covers /tokyo ghoul volume 11.jpg" alt=""></div>
+            </div>
+            
+
+        </section>
     </main>
     <footer>
-
+        <p>&copy;<span id="copyright"></span> Jephthah Onyighichi Productions</p>
     </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
