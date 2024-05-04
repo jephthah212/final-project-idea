@@ -26,6 +26,17 @@ header a img {
     margin: 1vh;
 }
 
+footer {
+    position: sticky;
+    top: 100%;
+    padding: 2vh 0;
+}
+footer p {
+    text-align: center;
+    font-size: 90%;
+    font-variant: small-caps;
+}
+
 /* Nav Menu */
 .navmenu {
     display: flex;
